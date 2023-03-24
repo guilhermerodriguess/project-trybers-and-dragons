@@ -1,6 +1,4 @@
 export default abstract class Race {
-  static numberOfRaces: number;
-
   constructor(
     private readonly _name: string, 
     private readonly _dexterity: number,
@@ -10,9 +8,6 @@ export default abstract class Race {
   }
 
   static createdRacesInstances():number {
-    // const newValue = this.numberOfRaces + 1;
-    // this.numberOfRaces = newValue;
-    // return newValue;
     throw new Error('Not implemented');
   }
 
